@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Julee&display=swap');
 
 body {
     background-color: #E9EDEB;
@@ -38,4 +39,36 @@ body {
     transform: scaleX(1);
     transform-origin: left;
 
+}
+
+.image {
+
+}
+
+.img-fluid {
+    width: 470px;
+    height: 630px;
+}
+
+.loading-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.loading-text {
+    padding-top: 140px;
+}
+
+.name {
+    font-family: 'Julee', cursive;
+    font-size: 70px;
+}
+
+.quote {
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
