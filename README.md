@@ -1,3 +1,2 @@
-# Portfolio Website
-## Personal Portfolio Website for ASE 220 Assignment #1
+# Personal Portfolio Website
 https://kaleabtesfaye01.github.io/PortfolioWebsite/
