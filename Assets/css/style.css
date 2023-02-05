@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Julee&family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.container {
+.wrapper {
     padding: 30px 10px 0;
     background-color: #E9EDEB;
 }
@@ -12,12 +12,12 @@
     padding: 0 50px;
 }
 
-.container .navbar-brand {
+.wrapper .navbar-brand {
     font-family: "Alex Brush", cursive;
     font-size: 36px;
 }
 
-.container .nav-link {
+.wrapper .nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #000000;
@@ -144,7 +144,7 @@
 }
 
 .cards {
-    padding: 60px 10px;
+    padding: 80px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -158,7 +158,7 @@
     border: 8px solid #fff;
     overflow: hidden;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .card-img {
@@ -191,4 +191,109 @@
 
 .card:hover .card-body {
     right: 0;
+}
+
+.contact_me {
+    padding: 80px 10px;
+}
+
+.contact {
+    position: relative;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    min-width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.box .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+}
+
+.box .text {
+    display: flex;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.contactForm {
+    padding-top: 60px;
+    min-width: 40%;
+}
+
+.contactForm h3 {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputbox input, .inputbox textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: #E9EDEB;
+    outline: none;
+    resize: none;
+}
+
+.inputbox span {
+    position: absolute;
+    left: 0;
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.inputbox input:focus ~ span, .inputbox textarea:focus ~ span,
+.inputbox input:valid ~ span, .inputbox textarea:valid ~ span {
+    color: #F52D00;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.inputbox input[type="submit"] {
+    width: 100px;
+    background: #F52D00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
 }
